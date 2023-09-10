@@ -21,7 +21,44 @@ header a{
     font-weight: 500;
     padding-left: 35px;
 }
-main{
+#Home_sec{
+    background-color: #f2f2f2;
+    padding: 20px;
     text-align: center;
-        
-}
+  }
+  #Home_sec h1{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #Home_sec p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  #Home_sec.mail{
+    margin-top: 20px;
+  }
+  #Home_sec.mail a{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  #Home_sec.mail a:hover{
+    background-color: #3e8e41;
+  }
+  @media only screen and (max-width: 600px) {
+    #Home_sec{
+      padding: 10px;
+    }
+    #Home_sec h1{
+      font-size: 25px;
+    }
+    #Home_sec p{
+      font-size: 16px;
+    }
+    #Home_sec.mail a{
+      padding: 5px 10px;
+    }
+  }
